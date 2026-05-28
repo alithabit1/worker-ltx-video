@@ -1,5 +1,7 @@
 # worker-ltx-video
 
+[![Runpod](https://api.runpod.io/badge/alithabit1/worker-ltx-video)](https://console.runpod.io/hub/alithabit1/worker-ltx-video)
+
 Custom RunPod Serverless worker for **Lightricks LTX-Video**, the fastest
 open-source video diffusion model in 2026 (~10–20 seconds per 5 s clip on an
 RTX 4090).
