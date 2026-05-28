@@ -3,14 +3,14 @@
     {
       "name": "t2v_smoke",
       "input": {
-        "prompt": "a red panda walking through a sunlit forest",
-        "num_frames": 49,
-        "num_inference_steps": 20,
-        "width": 704,
-        "height": 480,
+        "prompt": "a red panda walking",
+        "num_frames": 25,
+        "num_inference_steps": 8,
+        "width": 512,
+        "height": 384,
         "seed": 42
       },
-      "timeout": 600000
+      "timeout": 1800000
     }
   ],
   "config": {
