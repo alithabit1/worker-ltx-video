@@ -1,0 +1,10 @@
+{
+  "input": {
+    "prompt": "a red panda walking through a sunlit forest, gentle camera pan",
+    "num_frames": 49,
+    "num_inference_steps": 25,
+    "width": 704,
+    "height": 480,
+    "seed": 42
+  }
+}

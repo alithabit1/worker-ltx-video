@@ -1,0 +1,12 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+*.mp4
+*.png
+.venv
+venv
+.env
+test_outputs/
+.runpod/tests.json

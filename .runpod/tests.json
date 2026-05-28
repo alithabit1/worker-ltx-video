@@ -1,0 +1,21 @@
+{
+  "tests": [
+    {
+      "name": "t2v_smoke",
+      "input": {
+        "prompt": "a red panda walking through a sunlit forest",
+        "num_frames": 49,
+        "num_inference_steps": 20,
+        "width": 704,
+        "height": 480,
+        "seed": 42
+      },
+      "timeout": 600000
+    }
+  ],
+  "config": {
+    "gpuTypeId": "NVIDIA RTX 4090",
+    "gpuCount": 1,
+    "allowedCudaVersions": ["12.1", "12.2", "12.4", "12.6", "12.8"]
+  }
+}
