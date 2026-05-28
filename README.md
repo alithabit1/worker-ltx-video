@@ -9,6 +9,12 @@ GPUs (RTX 5090 / B200, scarce) or wrap ComfyUI workflow JSON (verbose API).
 This worker uses HuggingFace `diffusers` directly, runs on any 24 GB+ GPU
 (RTX 4090, A6000, L40S, …), and exposes a tiny API.
 
+**Files:**
+- `rp_handler.py` — RunPod serverless handler (T2V + I2V via diffusers)
+- `Dockerfile` — container build instructions
+- `requirements.txt` — Python deps
+- `.runpod/hub.json` — RunPod Hub deployment config
+
 ## API
 
 `POST https://api.runpod.ai/v2/<ENDPOINT_ID>/run`

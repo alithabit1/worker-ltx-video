@@ -13,6 +13,6 @@ RUN python3.11 -m pip install --no-cache-dir --upgrade pip && \
     python3.11 -m pip install --no-cache-dir hf-transfer && \
     python3.11 -m pip install --no-cache-dir -r requirements.txt
 
-COPY handler.py .
+COPY rp_handler.py .
 
-CMD ["python3.11", "-u", "handler.py"]
+CMD ["python3.11", "-u", "rp_handler.py"]
